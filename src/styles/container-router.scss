@@ -1,0 +1,9 @@
+.router-box {
+  background: #fff;
+  padding: 5px 15px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100vh - #{$nav_bar_height} - 20px);
+  @include scrollBar();
+}

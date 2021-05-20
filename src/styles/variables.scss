@@ -1,0 +1,47 @@
+$blue: #324157;
+$light-blue: #45a1ff;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// header
+$nav_bar_height: 46px;
+$content-header-title: 16px;
+
+//sidebar
+$menuText: #b2c0d2;
+$menuActiveText: #f1f1f1;
+$subMenuActiveText: #f1f1f1; // https://github.com/ElemeFE/element/issues/12951
+
+// $menuBg: #304156;
+$menuBg: #232939;
+// $subMenuBg: #1f2d3d;
+$subMenuBg: #303c4c;
+// $menuHover: #001528;
+$menuHover: #f1f1f1;
+// $subMenuActiveText: #409eff;
+$left_menu_width: 260px;
+$left_menu_item_height: 42px;
+$head_nav_height: 36px;
+
+//border
+$border-color: #b7b6b6;
+$table-striped-color: #f2f2f2;
+
+$around-padding: 10px;
+$input-padding: 10px;
+
+:export {
+  navBarHeight: $nav_bar_height;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuBg;
+  sideBarWidth: $left_menu_width;
+}
